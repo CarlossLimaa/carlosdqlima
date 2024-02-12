@@ -18,13 +18,13 @@ import React from "react";
  */
 import image from "../images/motion-background.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "data background";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "Sou estudante de Informática Para Negócios na FATEC Rio Preto. Gosto de finanças, análise de dados e marketing digital.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -32,11 +32,10 @@ const description =
  */
 const skillsList = [
   "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Análise de Dados",
+  "Marketing Digital",
+  "SEO",
+  "Trafégo Pago",
 ];
 
 /**
@@ -45,7 +44,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "Eu sou um jovem empreendedor apaixonado por negócios e tecnologia! Estou pronto para conquistar o mundo dos negócios com ideias inovadoras. E sempre em busca de novas oportunidades para crescer e fazer a diferença.";
 
 const About = () => {
   return (
@@ -60,7 +59,7 @@ const About = () => {
           textAlign: "center",
         }}
       >
-        <h2>About Myself</h2>
+        <h2>Sobre Mim</h2>
         <p className="large">{description}</p>
         <hr />
         <ul
